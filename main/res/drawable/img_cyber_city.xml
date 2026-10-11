@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="180dp"
+    android:viewportWidth="360"
+    android:viewportHeight="180">
+
+    <!-- Темно-синий фон -->
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M0,0h360v180h-360z" />
+
+    <!-- Задний план (Здания) -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M15,180 V70 H65 V180 M85,180 V40 H145 V180 M175,180 V80 H225 V180 M245,180 V35 H315 V180" />
+
+    <!-- Окна и неоновые полосы на зданиях -->
+    <path
+        android:fillColor="#1E293B"
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="1.5"
+        android:pathData="M35,90 h15 v10 h-15 z M35,110 h15 v10 h-15 z M100,60 h20 v15 h-20 z M100,85 h20 v15 h-20 z M265,55 h30 v15 h-30 z M265,80 h30 v15 h-30 z" />
+
+    <!-- Передний план и неоновый луч -->
+    <path
+        android:fillColor="#0F172A"
+        android:strokeColor="#00FFCC"
+        android:strokeWidth="2"
+        android:pathData="M0,180 V105 H55 V180 M135,180 V95 H195 V180 M275,180 V115 H360 V180" />
+
+    <path
+        android:strokeColor="#10B981"
+        android:strokeWidth="2"
+        android:pathData="M165,95 L165,15 M170,95 L190,15" />
+</vector>
